@@ -1047,13 +1047,13 @@
                     From large events to river conservation, every action counts. Join us in creating a sustainable future.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#" class="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-800 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    <a href="{{route('about')}}" class="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-800 transition-all duration-300 shadow-lg hover:shadow-xl">
                         Join Our Initiatives
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                         </svg>
                     </a>
-                    <a href="#" class="inline-flex items-center justify-center gap-2 border-2 border-green-700 text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300">
+                    <a href="{{route('about')}}" class="inline-flex items-center justify-center gap-2 border-2 border-green-700 text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300">
                         View Our Impact Stories
                     </a>
                 </div>

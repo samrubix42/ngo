@@ -42,7 +42,7 @@
                     <div class="absolute -bottom-6 -right-6 w-full h-full bg-gradient-to-br from-green-100 to-green-200 rounded-3xl"></div>
                     
                     <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=900&fit=crop" 
+                        <img src="/Gemini_Generated_Image_q0pho1q0pho1q0ph.png" 
                              alt="Ajay Mehra" 
                              class="relative rounded-3xl shadow-2xl object-cover w-full h-[500px] lg:h-[600px] ring-4 ring-white" />
                         
