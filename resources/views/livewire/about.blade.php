@@ -1,7 +1,7 @@
 @push('meta')
-<meta name="description" content="Ajay Mehra - SWM Consultant, Founder of Swachh SeVa Foundation. Learn about his journey, leadership roles, and mission to create a cleaner, greener, healthier India.">
-<meta property="og:title" content="About Ajay Mehra - Swachh SeVa Foundation">
-<meta property="og:description" content="M.Sc Chemistry graduate, BJP member, Chairman of Swachh SeVa Foundation, leading zero waste initiatives and sustainable waste management across India.">
+<meta name="description" content="Ajay Mehra - SWM Consultant, Founder of Net Zero Submission. Learn about his journey, leadership roles, and mission to create a cleaner, greener, healthier India.">
+<meta property="og:title" content="About Ajay Mehra - Net Zero Submission">
+<meta property="og:description" content="M.Sc Chemistry graduate, BJP member, Chairman of Net Zero Submission, leading zero waste initiatives and sustainable waste management across India.">
 <meta name="twitter:title" content="About Ajay Mehra - Founder & Chairman">
 @endpush
 
@@ -208,7 +208,7 @@
                     <div class="space-y-6">
                         <div class="bg-green-50 p-4 rounded-xl">
                             <p class="text-sm text-green-700 font-semibold mb-1">Chairman</p>
-                            <p class="text-lg font-bold text-gray-900">Swachh SeVa Foundation</p>
+                            <p class="text-lg font-bold text-gray-900">Net Zero Submission</p>
                         </div>
                         <div class="bg-green-50 p-4 rounded-xl">
                             <p class="text-sm text-green-700 font-semibold mb-1">Project Head</p>
@@ -266,7 +266,7 @@
                 </div>
 
                 <div x-show="visible" x-transition.delay.400ms class="mt-12">
-                    <a href="#" class="inline-flex items-center gap-2 bg-white text-green-900 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    <a href="{{route('contact')}}" class="inline-flex items-center gap-2 bg-white text-green-900 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300 shadow-lg hover:shadow-xl">
                         Join Our Mission
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

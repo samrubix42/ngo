@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class Home extends Component
 {
-    #[Title('Swachh SeVa Foundation')]
+    #[Title('Net Zero Submission')]
     public function render()
     {
         return view('livewire.home');

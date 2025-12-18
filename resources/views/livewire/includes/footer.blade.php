@@ -13,10 +13,8 @@
             <!-- About Section -->
             <div class="lg:col-span-1">
                 <div class="flex items-center gap-3 mb-4">
-                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-green-700 rounded-xl flex items-center justify-center text-2xl shadow-lg">
-                        ♻️
-                    </div>
-                    <h4 class="text-white font-bold text-xl">Swachh SeVa</h4>
+                    <img src="/logo.png" alt="" class="h-10 w-10 object-contain" />
+                    <h4 class="text-white font-bold text-xl">Net Zero Submission</h4>
                 </div>
                 <p class="text-gray-400 text-sm leading-relaxed mb-6">
                     Building a cleaner, healthier India through innovation, community participation, and sustainable waste management practices.
@@ -151,7 +149,7 @@
         <!-- Bottom Bar -->
         <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="text-sm text-gray-400 text-center md:text-left">
-                © 2025 <span class="text-white font-semibold">Swachh SeVa Foundation</span>. All rights reserved. | Founded by Ajay Mehra
+                © 2025 <span class="text-white font-semibold">Net Zero Submission</span>. All rights reserved. | Founded by Ajay Mehra
             </div>
             <div class="flex items-center gap-6 text-sm">
                 <a

@@ -1,8 +1,8 @@
 @push('meta')
-<meta name="description" content="Swachh SeVa Foundation - Join Ajay Mehra's mission for zero waste management, SS Bin implementation, river conservation, and creating a cleaner, greener India through community participation.">
-<meta property="og:title" content="Home - Swachh SeVa Foundation">
+<meta name="description" content="Net Zero Submission - Join Ajay Mehra's mission for zero waste management, SS Bin implementation, river conservation, and creating a cleaner, greener India through community participation.">
+<meta property="og:title" content="Home - Net Zero Submission">
 <meta property="og:description" content="Building a cleaner India through zero waste initiatives, SS Bin implementation, and sustainable practices. Led by Ajay Mehra.">
-<meta name="twitter:title" content="Home - Swachh SeVa Foundation">
+<meta name="twitter:title" content="Net Zero Submission">
 @endpush
 
 <div>
@@ -60,7 +60,7 @@
                     </p>
 
                     <div x-show="show" x-transition.delay.300ms class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="#"
+                        <a href="{{route('contact')}}"
                             class="group bg-white text-green-900 px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-center">
                             <span class="inline-flex items-center">
                                 Join the Movement
@@ -69,7 +69,7 @@
                                 </svg>
                             </span>
                         </a>
-                        <a href="#"
+                        <a href="{{route('contact')}}"
                             class="border-2 border-white/60 px-8 py-4 rounded-xl font-semibold hover:bg-white/10 hover:border-white transition-all duration-300 backdrop-blur-sm text-center">
                             Support Our Work
                         </a>
@@ -154,8 +154,7 @@
                         Replace unsafe waste handling with hygienic and dignified systems.
                     </p>
                     <div class="mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-sm text-green-700 font-medium group-hover:underline">Learn more →</span>
-                    </div>
+                                            </div>
                 </div>
 
                 <!-- Goal 2 -->
@@ -172,8 +171,7 @@
                         Promote dry and wet waste separation in homes and public spaces.
                     </p>
                     <div class="mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-sm text-green-700 font-medium group-hover:underline">Learn more →</span>
-                    </div>
+                                            </div>
                 </div>
 
                 <!-- Goal 3 -->
@@ -190,8 +188,7 @@
                         Educate schools, institutions, and citizens on sustainable habits.
                     </p>
                     <div class="mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-sm text-green-700 font-medium group-hover:underline">Learn more →</span>
-                    </div>
+                                            </div>
                 </div>
 
                 <!-- Goal 4 -->
@@ -208,8 +205,7 @@
                         Encourage eco-friendly alternatives like stainless steel bins.
                     </p>
                     <div class="mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-sm text-green-700 font-medium group-hover:underline">Learn more →</span>
-                    </div>
+                                            </div>
                 </div>
             </div>
         </div>
@@ -303,7 +299,7 @@
 
                     <div class="relative">
                         <img
-                            src="https://images.unsplash.com/photo-1521791055366-0d553872125f?w=800&h=600&fit=crop"
+                            src="/Gemini_Generated_Image_q0pho1q0pho1q0ph.png"
                             alt="Ajay Mehra"
                             class="relative rounded-3xl shadow-2xl object-cover w-full h-[400px] sm:h-[500px] lg:h-[600px] ring-4 ring-white" />
 
@@ -397,9 +393,7 @@
                             </svg>
                             Read the Story
                         </a>
-                        <a href="#" class="inline-flex items-center justify-center gap-2 border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-300">
-                            Watch Documentary
-                        </a>
+                      
                     </div>
                 </div>
             </div>
@@ -441,20 +435,7 @@
             </div>
 
             <!-- Call to Action -->
-            <div x-show="visible" x-transition.delay.800ms class="mt-16 text-center bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-3xl p-8 lg:p-12 shadow-2xl">
-                <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Join the Movement for Change</h3>
-                <p class="text-base sm:text-lg text-orange-100 max-w-2xl mx-auto mb-8">
-                    Together, we can eliminate manual scavenging and restore dignity to thousands of workers across India.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#" class="inline-flex items-center justify-center gap-2 bg-white text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg">
-                        Support This Cause
-                    </a>
-                    <a href="#" class="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
-                        Volunteer With Us
-                    </a>
-                </div>
-            </div>
+    
         </div>
     </section>
 
@@ -781,26 +762,7 @@
                 </div>
             </div>
 
-            <!-- Call to Action -->
-            <div x-show="visible" x-transition.delay.600ms class="mt-16 text-center">
-                <h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                    Join the Swachhata Movement Today
-                </h3>
-                <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-8">
-                    Be part of this transformative journey. Together, we can create a cleaner, healthier India.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#" class="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-800 transition-all duration-300 shadow-lg hover:shadow-xl">
-                        Get Involved
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
-                    <a href="#" class="inline-flex items-center justify-center gap-2 border-2 border-green-700 text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-all duration-300">
-                        Learn More About Our Work
-                    </a>
-                </div>
-            </div>
+      
         </div>
     </section>
 
@@ -1010,12 +972,7 @@
 
                         <!-- CTA -->
                         <div class="flex flex-col sm:flex-row gap-4">
-                            <a href="#" class="inline-flex items-center justify-center gap-2 bg-white text-green-800 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg">
-                                Learn About Zero Waste
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                </svg>
-                            </a>
+                           
                         </div>
                     </div>
 

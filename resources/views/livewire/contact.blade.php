@@ -1,8 +1,8 @@
 @push('meta')
-<meta name="description" content="Contact Swachh SeVa Foundation - Get in touch with us for collaborations, volunteer opportunities, or inquiries. Address: C-147 Govindpuram, Ghaziabad, UP. Phone: +91 9350889056">
-<meta property="og:title" content="Contact Us - Swachh SeVa Foundation">
+<meta name="description" content="Contact Net Zero Submission - Get in touch with us for collaborations, volunteer opportunities, or inquiries. Address: C-147 Govindpuram, Ghaziabad, UP. Phone: +91 9350889056">
+<meta property="og:title" content="Contact Us - Net Zero Submission">
 <meta property="og:description" content="Reach out to us for partnerships, donations, or to join our mission. Located in Ghaziabad, UP. Email: info@netzerocmission.com">
-<meta name="twitter:title" content="Contact Swachh SeVa Foundation">
+<meta name="twitter:title" content="Contact Net Zero Submission">
 @endpush
 
 <div>
@@ -252,21 +252,5 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-16 bg-gradient-to-br from-green-700 to-green-900 text-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Join Our Mission for a Cleaner India</h2>
-            <p class="text-green-100 text-lg mb-8 max-w-2xl mx-auto">
-                Every contribution counts. Whether you volunteer, partner, or support our cause, you're making a difference.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="#home" class="inline-flex items-center justify-center gap-2 bg-white text-green-800 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg">
-                    Learn More About Us
-                </a>
-                <a href="#programs" class="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
-                    View Our Programs
-                </a>
-            </div>
-        </div>
-    </section>
+
 </div>

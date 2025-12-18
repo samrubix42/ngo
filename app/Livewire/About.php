@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class About extends Component
 {
-    #[Title('About Ajay Mehra - Swachh SeVa Foundation')]
+    #[Title('About Ajay Mehra - Net Zero Submission')]
     public function render()
     {
         return view('livewire.about');
