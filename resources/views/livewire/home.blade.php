@@ -1,3 +1,10 @@
+@push('meta')
+<meta name="description" content="Swachh SeVa Foundation - Join Ajay Mehra's mission for zero waste management, SS Bin implementation, river conservation, and creating a cleaner, greener India through community participation.">
+<meta property="og:title" content="Home - Swachh SeVa Foundation">
+<meta property="og:description" content="Building a cleaner India through zero waste initiatives, SS Bin implementation, and sustainable practices. Led by Ajay Mehra.">
+<meta name="twitter:title" content="Home - Swachh SeVa Foundation">
+@endpush
+
 <div>
     <!-- Hero Section with Full Screen Video -->
     <section id="home" class="relative text-white overflow-hidden min-h-screen flex items-center" x-data="{videoLoaded: false}">

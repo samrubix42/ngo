@@ -125,7 +125,8 @@
                         </div>
                         <div>
                             <div class="text-gray-500 text-xs mb-1">Email</div>
-                            <a href="mailto:info@swachhseva.org" class="text-gray-300 hover:text-green-400 transition-colors">info@swachhseva.org</a>
+                            <a href="mailto:info@netzerocmission.com" class="text-gray-300 hover:text-green-400 transition-colors">info@netzerocmission.com</a>
+                            
                         </div>
                     </li>
                     <li class="flex items-start gap-3">

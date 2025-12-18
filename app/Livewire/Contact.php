@@ -4,6 +4,7 @@ namespace App\Livewire;
 
 use Livewire\Component;
 use App\Models\Contact as ContactModel;
+use Livewire\Attributes\Title;
 
 class Contact extends Component
 {
@@ -46,6 +47,7 @@ class Contact extends Component
         $this->reset(['name', 'email', 'phone', 'subject', 'message']);
     }
 
+    #[Title('Contact Us - Swachh SeVa Foundation')]
     public function render()
     {
         return view('livewire.contact');

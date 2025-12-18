@@ -1,3 +1,10 @@
+@push('meta')
+<meta name="description" content="Contact Swachh SeVa Foundation - Get in touch with us for collaborations, volunteer opportunities, or inquiries. Address: C-147 Govindpuram, Ghaziabad, UP. Phone: +91 9350889056">
+<meta property="og:title" content="Contact Us - Swachh SeVa Foundation">
+<meta property="og:description" content="Reach out to us for partnerships, donations, or to join our mission. Located in Ghaziabad, UP. Email: info@netzerocmission.com">
+<meta name="twitter:title" content="Contact Swachh SeVa Foundation">
+@endpush
+
 <div>
     <!-- Contact Hero Section -->
     <section class="relative bg-gradient-to-br from-green-900 via-green-800 to-green-700 text-white py-20 sm:py-24 lg:py-32 overflow-hidden">

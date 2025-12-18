@@ -1,3 +1,10 @@
+@push('meta')
+<meta name="description" content="Ajay Mehra - SWM Consultant, Founder of Swachh SeVa Foundation. Learn about his journey, leadership roles, and mission to create a cleaner, greener, healthier India.">
+<meta property="og:title" content="About Ajay Mehra - Swachh SeVa Foundation">
+<meta property="og:description" content="M.Sc Chemistry graduate, BJP member, Chairman of Swachh SeVa Foundation, leading zero waste initiatives and sustainable waste management across India.">
+<meta name="twitter:title" content="About Ajay Mehra - Founder & Chairman">
+@endpush
+
 <div>
     <!-- Hero Section -->
     <section class="relative bg-gradient-to-br from-green-950 via-green-900 to-green-800 text-white overflow-hidden py-20 lg:py-32">
