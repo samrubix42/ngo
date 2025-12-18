@@ -91,16 +91,15 @@
         class="md:hidden bg-white border-t shadow-lg">
         <div class="px-6 py-6 space-y-4 font-medium text-gray-700">
             <a wire:navigate href="{{ route('home') }}" class="block hover:text-green-700" @click="open = false">Home</a>
-            <a wire:navigate href="{{ route('about') }}" class="block hover:text-green-700" @click="open = false">About</a>
             <a href="#programs" class="block hover:text-green-700" @click="open = false">Programs</a>
             <a href="#scavenger-story" class="block hover:text-green-700" @click="open = false">Scavenger Story</a>
             <a href="#impact" class="block hover:text-green-700" @click="open = false">Impact</a>
             <a href="#events" class="block hover:text-green-700" @click="open = false">Events</a>
             <a wire:navigate href="{{ route('contact') }}" class="block hover:text-green-700" @click="open = false">Contact</a>
 
-            <a href="#"
+            <a wire:navigate href="{{ route('about') }}"
                 class="block text-center bg-green-700 text-white py-3 rounded-lg font-semibold">
-                Donate
+                About
             </a>
         </div>
     </div>

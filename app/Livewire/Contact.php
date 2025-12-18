@@ -5,6 +5,8 @@ namespace App\Livewire;
 use Livewire\Component;
 use App\Models\Contact as ContactModel;
 use Livewire\Attributes\Title;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactFormSubmitted;
 
 class Contact extends Component
 {
@@ -34,13 +36,18 @@ class Contact extends Component
     {
         $this->validate();
 
-        ContactModel::create([
+        $contactData = [
             'name' => $this->name,
             'email' => $this->email,
             'phone' => $this->phone,
             'subject' => $this->subject,
             'message' => $this->message,
-        ]);
+        ];
+
+        ContactModel::create($contactData);
+
+        // Send email notification
+        Mail::to('samcool3203@gmail.com')->send(new ContactFormSubmitted($contactData));
 
         session()->flash('success', 'Thank you for contacting us! We will get back to you soon.');
 
