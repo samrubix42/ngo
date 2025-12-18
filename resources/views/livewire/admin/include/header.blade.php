@@ -21,17 +21,23 @@
         <div x-data="{ open: false }" class="relative">
             <button @click="open = !open" class="flex items-center gap-2">
                 <div class="w-9 h-9 bg-green-600 rounded-full flex items-center justify-center">
-                    <span class="text-white font-semibold text-sm">A</span>
+                    <span class="text-white font-semibold text-sm">{{ strtoupper(substr(auth()->user()->name, 0, 1)) }}</span>
                 </div>
-                <span class="hidden md:block text-sm font-medium text-gray-700">Admin</span>
+                <span class="hidden md:block text-sm font-medium text-gray-700">{{ auth()->user()->name }}</span>
             </button>
 
             <div x-show="open" @click.away="open = false" x-transition x-cloak 
                 class="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border py-1">
-                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Profile</a>
-                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Settings</a>
-                <hr class="my-1">
-                <a href="#" class="block px-4 py-2 text-sm text-red-600 hover:bg-red-50">Logout</a>
+                <div class="px-4 py-2 border-b">
+                    <p class="text-sm font-medium text-gray-900">{{ auth()->user()->name }}</p>
+                    <p class="text-xs text-gray-500">{{ auth()->user()->email }}</p>
+                </div>
+                <form action="{{ route('logout') }}" method="POST">
+                    @csrf
+                    <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">
+                        Logout
+                    </button>
+                </form>
             </div>
         </div>
     </div>

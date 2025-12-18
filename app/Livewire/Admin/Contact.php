@@ -7,6 +7,7 @@ use Livewire\WithPagination;
 use App\Models\Contact as ContactModel;
 use Livewire\Attributes\Layout;
 
+#[Layout('components.layouts.admin')]
 class Contact extends Component
 {
     use WithPagination;
@@ -33,11 +34,10 @@ class Contact extends Component
         session()->flash('success', 'Message deleted successfully!');
     }
 
-    #[Layout('components.layouts.admin')]
     public function render()
     {
         return view('livewire.admin.contact', [
             'contacts' => ContactModel::latest()->paginate(10)
-        ])->layout('components.layouts.admin', ['title' => 'Contact Messages - Admin']);
+        ]);
     }
 }
