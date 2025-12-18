@@ -60,7 +60,7 @@
                     </p>
 
                     <div x-show="show" x-transition.delay.300ms class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="{{route('contact')}}"
+                        <a wire:navigate href="{{route('contact')}}"
                             class="group bg-white text-green-900 px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-center">
                             <span class="inline-flex items-center">
                                 Join the Movement
@@ -69,7 +69,7 @@
                                 </svg>
                             </span>
                         </a>
-                        <a href="{{route('contact')}}"
+                        <a wire:navigate href="{{route('contact')}}"
                             class="border-2 border-white/60 px-8 py-4 rounded-xl font-semibold hover:bg-white/10 hover:border-white transition-all duration-300 backdrop-blur-sm text-center">
                             Support Our Work
                         </a>
