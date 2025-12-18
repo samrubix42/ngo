@@ -376,7 +376,7 @@
         <!-- Footer -->
         <div class="email-footer">
             <p class="footer-text">
-                <strong>Net Zero Submission</strong><br>
+                <strong> Net Zero Carbon Solutions</strong><br>
                 C-147, Govindpuram, Ghaziabad (U.P.) - 201013
             </p>
             
@@ -389,7 +389,7 @@
             <div class="divider"></div>
 
             <p class="footer-text">
-                © {{ date('Y') }} Net Zero Submission. All rights reserved.
+                © {{ date('Y') }} Net Zero Carbon Solutions. All rights reserved.
             </p>
         </div>
     </div>

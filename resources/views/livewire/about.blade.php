@@ -1,7 +1,7 @@
 @push('meta')
-<meta name="description" content="Ajay Mehra - SWM Consultant, Founder of Net Zero Submission. Learn about his journey, leadership roles, and mission to create a cleaner, greener, healthier India.">
-<meta property="og:title" content="About Ajay Mehra - Net Zero Submission">
-<meta property="og:description" content="M.Sc Chemistry graduate, BJP member, Chairman of Net Zero Submission, leading zero waste initiatives and sustainable waste management across India.">
+<meta name="description" content="Ajay Mehra - SWM Consultant, Founder of Net Zero Carbon Solutions. Learn about his journey, leadership roles, and mission to create a cleaner, greener, healthier India.">
+<meta property="og:title" content="About Ajay Mehra - Net Zero Carbon Solutions">
+<meta property="og:description" content="M.Sc Chemistry graduate, BJP member, Chairman of Net Zero Carbon Solutions, leading zero waste initiatives and sustainable waste management across India.">
 <meta name="twitter:title" content="About Ajay Mehra - Founder & Chairman">
 @endpush
 
@@ -208,7 +208,7 @@
                     <div class="space-y-6">
                         <div class="bg-green-50 p-4 rounded-xl">
                             <p class="text-sm text-green-700 font-semibold mb-1">Chairman</p>
-                            <p class="text-lg font-bold text-gray-900">Net Zero Submission</p>
+                            <p class="text-lg font-bold text-gray-900"> Net Zero Carbon Solutions</p>
                         </div>
                         <div class="bg-green-50 p-4 rounded-xl">
                             <p class="text-sm text-green-700 font-semibold mb-1">Project Head</p>

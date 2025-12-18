@@ -1,8 +1,8 @@
 @push('meta')
-<meta name="description" content="Net Zero Submission - Join Ajay Mehra's mission for zero waste management, SS Bin implementation, river conservation, and creating a cleaner, greener India through community participation.">
-<meta property="og:title" content="Home - Net Zero Submission">
+<meta name="description" content=" Net Zero Carbon Solutions - Join Ajay Mehra's mission for zero waste management, SS Bin implementation, river conservation, and creating a cleaner, greener India through community participation.">
+<meta property="og:title" content="Home - Net Zero Carbon Solutions">
 <meta property="og:description" content="Building a cleaner India through zero waste initiatives, SS Bin implementation, and sustainable practices. Led by Ajay Mehra.">
-<meta name="twitter:title" content="Net Zero Submission">
+<meta name="twitter:title" content=" Net Zero Carbon Solutions">
 @endpush
 
 <div>

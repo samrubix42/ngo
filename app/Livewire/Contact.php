@@ -46,15 +46,14 @@ class Contact extends Component
 
         ContactModel::create($contactData);
 
-        // Send email notification
-        Mail::to('samcool3203@gmail.com')->send(new ContactFormSubmitted($contactData));
+        Mail::to('ajaymehra@netzerocmission.com')->send(new ContactFormSubmitted($contactData));
 
         session()->flash('success', 'Thank you for contacting us! We will get back to you soon.');
 
         $this->reset(['name', 'email', 'phone', 'subject', 'message']);
     }
 
-    #[Title('Contact Us - Net Zero Submission')]
+    #[Title('Contact Us - Net Zero Carbon Solutions')]
     public function render()
     {
         return view('livewire.contact');

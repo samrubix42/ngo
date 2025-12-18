@@ -1,8 +1,8 @@
 @push('meta')
-<meta name="description" content="Contact Net Zero Submission - Get in touch with us for collaborations, volunteer opportunities, or inquiries. Address: C-147 Govindpuram, Ghaziabad, UP. Phone: +91 9350889056">
-<meta property="og:title" content="Contact Us - Net Zero Submission">
+<meta name="description" content="Contact Net Zero Carbon Solutions - Get in touch with us for collaborations, volunteer opportunities, or inquiries. Address: C-147 Govindpuram, Ghaziabad, UP. Phone: +91 9350889056">
+<meta property="og:title" content="Contact Us - Net Zero Carbon Solutions">
 <meta property="og:description" content="Reach out to us for partnerships, donations, or to join our mission. Located in Ghaziabad, UP. Email: info@netzerocmission.com">
-<meta name="twitter:title" content="Contact Net Zero Submission">
+<meta name="twitter:title" content="Contact Net Zero Carbon Solutions">
 @endpush
 
 <div>
