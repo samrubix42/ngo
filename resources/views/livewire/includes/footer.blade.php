@@ -56,12 +56,13 @@
                     Quick Links
                 </h4>
                 <ul class="space-y-3 text-sm">
-                    <li><a href="#home" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">Home</a></li>
-                    <li><a href="#about" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">About Ajay Mehra</a></li>
+                    <li><a wire:navigate href="{{ route('home') }}" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">Home</a></li>
+                    <li><a wire:navigate href="{{ route('about') }}" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">About Ajay Mehra</a></li>
                     <li><a href="#scavenger-story" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">Swachhta's Scavenger</a></li>
                     <li><a href="#programs" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">Our Programs</a></li>
                     <li><a href="#impact" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">Impact Stories</a></li>
                     <li><a href="#innovations" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">Innovations</a></li>
+                    <li><a wire:navigate href="{{ route('contact') }}" class="text-gray-400 hover:text-green-400 hover:translate-x-1 inline-block transition-all duration-300">Contact Us</a></li>
                 </ul>
             </div>
 
